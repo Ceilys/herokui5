@@ -6,7 +6,7 @@ var app = express();
 // Display on good directory
 app.use('/ui5', express.static(path.join(__dirname, 'webapp')));
 app.use('/wt', express.static(path.join(__dirname, 'walkthrough')));
-app.use('/cv', express.static(path.join(__dirname, 'cv')));
+app.use('/cv', express.static(path.join(__dirname, 'cv/webapp')));
 
 // For other key words, go on first page
 app.get('/', function (req, res) {

@@ -1,5 +1,7 @@
 node_modules/
 dist/
+cv/node_modules/
+cv/dist/
 .scp/
 .env
 Makefile*.mta

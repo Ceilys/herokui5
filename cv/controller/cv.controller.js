@@ -7,7 +7,7 @@ sap.ui.define([
 	function (Controller) {
 		"use strict";
 
-		return Controller.extend("com.cv.cv.controller.CV", {
+		return Controller.extend("com.cv.cv.controller.cv", {
 			onInit: function () {
 
 				// get model
